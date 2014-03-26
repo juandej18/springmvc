@@ -7,8 +7,8 @@ import com.personal.springapp.domain.Product;
 
 public interface ProductManager extends Serializable {
 
-	public void increasePrice(int percentage);
+    public void increasePrice(int percentage);
     
     public List<Product> getProducts();
-    
+
 }
